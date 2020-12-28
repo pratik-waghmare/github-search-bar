@@ -1,0 +1,15 @@
+.SearchBar {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  column-gap: 1em;
+
+  &__form {
+    // width: auto;
+    // max-width: 600px;
+  }
+
+  & .btn {
+    color: #fff !important;
+  }
+}

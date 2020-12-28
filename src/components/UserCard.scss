@@ -1,0 +1,49 @@
+.UserCard {
+  padding: 1rem 1.5rem;
+  width: 100%;
+  min-width: 320px;
+  max-width: 400px;
+  display: flex;
+  /* align-items: center; */
+
+  & .card-img-top {
+    border-radius: 50%;
+    width: auto;
+  }
+}
+
+.UserCard__body {
+  padding: 0.5rem;
+}
+
+.UserCard__avatar {
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  align-self: center;
+}
+
+.UserCard__heading {
+  font-weight: 20px;
+  text-align: center;
+}
+
+.UserCard__text {
+  padding: 0px 0.4rem;
+}
+
+.UserCard__text ul {
+  padding: 0px 0.4rem;
+}
+
+.UserCard__text ul li {
+  line-height: 1.5rem;
+}
+
+.UserCard__text ul li a {
+  color: blue !important;
+}
+
+.UserCard__footer {
+  width: 100%;
+}

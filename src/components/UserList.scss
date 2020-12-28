@@ -1,0 +1,8 @@
+.UserList {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  row-gap: 0.5rem;
+  column-gap: 0.5rem;
+  max-width: 1000px;
+  //   background-color: red;
+}
